@@ -6,9 +6,9 @@ def total(l1):
 		
 
 l1=[]
-n=int(input("enter size"))
+n=int(input("enter size:"))
 for i in range(0,n):
-	el=int(input("enter elements"))
+	el=int(input("enter elements:"))
 	l1.append(el)
 print(l1)
 total(l1)	

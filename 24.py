@@ -9,9 +9,9 @@ def fibonacci(n):
         print(a, b)
     else:
         for i in range(1,n+1):
-            print(b, end=" ")
+            print(a, end=" ")
             c=a+b
             a=b
             b=c
-n=int(input("enter limit"))
+n=int(input("enter limit:"))
 fibonacci(n)

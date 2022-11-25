@@ -15,8 +15,8 @@ def square(n):
 	else:
 		return False
 
-start=int(input("enter start number"))
-end=int(input("enter ending number"))
+start=int(input("enter start number:"))
+end=int(input("enter ending number:"))
 if len(str(start))!=4 and len(str(end))!=4:
 	print("invalid")
 for i in range(start,end):
